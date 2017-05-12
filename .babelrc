@@ -3,5 +3,8 @@
     ["es2015", {"modules": false}],
     "react"
   ],
-  "plugins": ["transform-async-to-generator"]
+  "plugins": [
+    ["transform-async-to-generator"],
+    ["import", { libraryName: "antd", style: true }]
+  ]
 }
